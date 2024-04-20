@@ -1,0 +1,35 @@
+<?php
+
+use App\Http\Controllers\Web\BeritaController;
+use App\Http\Controllers\Web\HKIController;
+use App\Http\Controllers\Web\KegiatanController;
+use App\Http\Controllers\Web\PenelitianController;
+use App\Http\Controllers\Web\PengabdianController;
+use App\Http\Controllers\Web\ProfilController;
+use App\Http\Controllers\Web\PublikasiController;
+use App\Http\Controllers\Web\WebController;
+use Illuminate\Support\Facades\Route;
+
+
+Route::get('/', [WebController::class,'index']);
+
+Route::get('profil', [ProfilController::class, 'profil']);
+Route::get('visi-misi', [ProfilController::class, 'visiMisi']);
+
+Route::get('penelitian-internal', [PenelitianController::class, 'internal']);
+Route::get('penelitian-eksternal', [PenelitianController::class, 'eksternal']);
+Route::get('penelitian-mahasiswa', [PenelitianController::class, 'mahasiswa']);
+
+Route::get('pengabdian-internal', [PengabdianController::class, 'internal']);
+Route::get('pengabdian-eksternal', [PengabdianController::class, 'eksternal']);
+
+Route::get('publikasi', [PublikasiController::class, 'index']);
+
+Route::get('prosedur-hki', [HKIController::class, 'prosedurHKI']);
+Route::get('hki', [HKIController::class, 'hki']);
+
+Route::get('seminar', [KegiatanController::class, 'seminar']);
+Route::get('galeri', [KegiatanController::class, 'galeri']);
+
+Route::get('berita', [BeritaController::class, 'index']);
+Route::get('berita/{berita}', [BeritaController::class, 'show']);
