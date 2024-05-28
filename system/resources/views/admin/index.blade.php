@@ -23,7 +23,7 @@
                         <div class="row d-flex align-items-center mb-4">
                             <div class="col-8">
                                 <h2 class="d-flex align-items-center mb-0">
-                                    10
+                                    {{ $penelitian_internal }}
                                 </h2>
                             </div>
                             <div class="col-4 text-end">
@@ -49,7 +49,7 @@
                         <div class="row d-flex align-items-center mb-4">
                             <div class="col-8">
                                 <h2 class="d-flex align-items-center mb-0">
-                                    20
+                                    {{ $penelitian_DRTPM_APTV }}
                                 </h2>
                             </div>
                             <div class="col-4 text-end">
@@ -75,7 +75,7 @@
                         <div class="row d-flex align-items-center mb-4">
                             <div class="col-8">
                                 <h2 class="d-flex align-items-center mb-0">
-                                    50
+                                    {{ $pengabdian_internal }}
                                 </h2>
                             </div>
                             <div class="col-4 text-end">
@@ -102,7 +102,7 @@
                         <div class="row d-flex align-items-center mb-4">
                             <div class="col-8">
                                 <h2 class="d-flex align-items-center mb-0">
-                                    20
+                                    {{ $pengabdian_DRTPM_APTV }}
                                 </h2>
                             </div>
                             <div class="col-4 text-end">

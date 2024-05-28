@@ -13,6 +13,7 @@
     <link href="{{ url('public/admin') }}/assets/css/icons.min.css" rel="stylesheet" type="text/css">
     <script src="{{ url('public/admin') }}/assets/js/config.js"></script>
 
+    
     <link href="{{ url('public/admin') }}/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css"
         rel="stylesheet" type="text/css" />
     <link href="{{ url('public/admin') }}/assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css"

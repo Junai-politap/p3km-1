@@ -1,7 +1,7 @@
 <x-web>
     <section class="page-header page-header__dark">
         <div class="container" style="height: 1%">
-            <h2>Data Penelitian Internal</h2>
+            <h2>DATA PENELITIAN INTERNAL</h2>
         </div>
     </section>
 

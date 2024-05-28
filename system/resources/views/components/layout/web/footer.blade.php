@@ -10,7 +10,7 @@
 
 
                 <div class="col-md-4">
-                    <img src="{{ url('public/web') }}/logo.png" style="width: 50%">
+                    <img src="{{ url('public/web') }}/politap.png" style="width: 40%">
                     <p>
                         Jalan Rangge Sentap, Dalong, Sukaharja, Kec. Delta Pawan,
                         Kabupaten Ketapang, Kalimantan Barat 78112

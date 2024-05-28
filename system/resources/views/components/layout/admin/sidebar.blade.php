@@ -42,8 +42,14 @@
                         </li>
                         
                         <li class="menu-item">
-                            <a href="pages-login.html" class="menu-link">
+                            <a href="{{url('admin/renstra')}}" class="menu-link">
                                 <span class="menu-text">Renstra</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="{{url('admin/struktur-organisasi')}}" class="menu-link">
+                                <span class="menu-text">Struktur Organisasi</span>
                             </a>
                         </li>
                     </ul>

@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-one__image">
-                        <img src="{{ url('public/web') }}/logo.png"
-                            style="object-fit: cover; position: static; width: 80%; height: 300px;">
+                        <img src="{{ url('public/web') }}/politap.png"
+                            style="object-fit: cover; position: static; width: 70%;">
 
                     </div>
                 </div>

@@ -21,7 +21,7 @@
                                 <select name="jenis_penelitian" class="form-control">
                                     <option value=""> Pilih Jenis Penelitian</option>
                                     <option value="Internal"> Internal</option>
-                                    <option value="Eksternal"> Eksternal</option>
+                                    <option value="DRTPM/APTV"> DRTPM/APTV</option>
                                 </select>
                             </div>
                         </div>

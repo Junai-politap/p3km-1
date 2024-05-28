@@ -28,6 +28,7 @@ class SeminarController extends Controller
         $seminar->nama_seminar = request('nama_seminar');
         $seminar->tanggal_seminar = request('tanggal_seminar');
         $seminar->link_seminar = request('link_seminar');
+        $seminar->jenis_seminar = request('jenis_seminar');
         $seminar->handleUploadPoto();
         $seminar->save();
 
@@ -58,6 +59,7 @@ class SeminarController extends Controller
         $seminar->nama_seminar = request('nama_seminar');
         $seminar->tanggal_seminar = request('tanggal_seminar');
         $seminar->link_seminar = request('link_seminar');
+        $seminar->jenis_seminar = request('jenis_seminar');
         $seminar->handleUploadPoto();
         $seminar->save();
 

@@ -14,10 +14,10 @@ class PenelitianController extends Controller
         return view('web.penelitian.internal', $data);
     }
 
-    public function eksternal() {
-        $data['list_penelitian'] = Penelitian::where('jenis_penelitian', 'Eksternal')->orderBy('tahun_terbit', 'ASC')->get();
+    public function drtpmAptv() {
+        $data['list_penelitian'] = Penelitian::where('jenis_penelitian', 'DRTPM/APTV')->orderBy('tahun_terbit', 'ASC')->get();
 
-        return view('web.penelitian.eksternal', $data);
+        return view('web.penelitian.drtpm-Aptv', $data);
     }
 
     public function mahasiswa() {

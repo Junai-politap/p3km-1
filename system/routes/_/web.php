@@ -15,20 +15,22 @@ Route::get('/', [WebController::class,'index']);
 
 Route::get('profil', [ProfilController::class, 'profil']);
 Route::get('visi-misi', [ProfilController::class, 'visiMisi']);
+Route::get('struktur-organisasi', [ProfilController::class, 'strukturOrganisasi']);
+Route::get('renstra', [ProfilController::class, 'renstra']);
 
 Route::get('penelitian-internal', [PenelitianController::class, 'internal']);
-Route::get('penelitian-eksternal', [PenelitianController::class, 'eksternal']);
-Route::get('penelitian-mahasiswa', [PenelitianController::class, 'mahasiswa']);
+Route::get('penelitian-drtpm-aptv', [PenelitianController::class, 'drtpmAptv']);
 
 Route::get('pengabdian-internal', [PengabdianController::class, 'internal']);
-Route::get('pengabdian-eksternal', [PengabdianController::class, 'eksternal']);
+Route::get('pengabdian-drtpm-aptv', [PengabdianController::class, 'drtpmAptv']);
 
 Route::get('publikasi', [PublikasiController::class, 'index']);
 
 Route::get('prosedur-hki', [HKIController::class, 'prosedurHKI']);
 Route::get('hki', [HKIController::class, 'hki']);
 
-Route::get('seminar', [KegiatanController::class, 'seminar']);
+Route::get('seminar-nasional', [KegiatanController::class, 'seminarNasional']);
+Route::get('seminar-internasional', [KegiatanController::class, 'seminarInternasional']);
 Route::get('galeri', [KegiatanController::class, 'galeri']);
 
 Route::get('berita', [BeritaController::class, 'index']);

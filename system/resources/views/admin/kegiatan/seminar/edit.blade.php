@@ -31,6 +31,19 @@
                             </div>
                         </div>
                         
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label">Jenis Seminar</label>
+                            <div class="col-sm-9">
+                                <select name="jenis_seminar" class="form-control">
+                                    <option value="Seminar Nasional" @if ($seminar->jenis_seminar == 'Seminar Nasional') selected @endif> Seminar Nasional
+                                    </option>
+                                    <option value="Seminar Internasional" @if ($seminar->jenis_seminar == 'Seminar Internasional') selected @endif> Seminar Internasional
+                                    </option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+
                         <div class="row mb-2">
                             <label class="col-sm-3 col-form-label">Poto</label>
                             <div class="col-md-5">

@@ -9,10 +9,16 @@ use Illuminate\Http\Request;
 
 class KegiatanController extends Controller
 {
-    public function seminar() {
-        $data['list_seminar'] = Seminar::all();
+    public function seminarNasional() {
+        $data['list_seminar'] = Seminar::where('jenis_seminar', 'Seminar Nasional')->orderBy('tanggal_seminar', 'ASC')->get();
 
-        return view('web.kegiatan.seminar', $data);
+        return view('web.kegiatan.seminar-nasional', $data);
+    }
+
+    public function seminarInternasional() {
+        $data['list_seminar'] = Seminar::where('jenis_seminar', 'Seminar Internasional')->orderBy('tanggal_seminar', 'ASC')->get();
+
+        return view('web.kegiatan.seminar-internasional', $data);
     }
 
 

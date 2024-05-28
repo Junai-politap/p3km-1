@@ -14,9 +14,9 @@ class PengabdianController extends Controller
         return view('web.pengabdian.internal', $data);
     }
 
-    public function eksternal() {
-        $data['list_penelitian'] = Pengabdian::where('jenis_pengabdian', 'Eksternal')->orderBy('tahun_terbit', 'ASC')->get();
+    public function drtpmAptv() {
+        $data['list_penelitian'] = Pengabdian::where('jenis_pengabdian', 'DRTPM/APTV')->orderBy('tahun_terbit', 'ASC')->get();
 
-        return view('web.pengabdian.eksternal', $data);
+        return view('web.pengabdian.drtpm-aptv', $data);
     }
 }

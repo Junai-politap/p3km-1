@@ -22,10 +22,9 @@
                                 <select name="jenis_penelitian" class="form-control">
                                     <option value="Internal" @if ($penelitian->jenis_penelitian == 'Internal') selected @endif> Internal
                                     </option>
-                                    <option value="Eksternal" @if ($penelitian->jenis_penelitian == 'Eksternal') selected @endif> Eksternal
+                                    <option value="DRTPM/APTV" @if ($penelitian->jenis_penelitian == 'DRTPM/APTV') selected @endif> DRTPM/APTV
                                     </option>
-                                    <option value="Mahasiswa" @if ($penelitian->jenis_penelitian == 'Mahasiswa') selected @endif> Mahasiswa
-                                    </option>
+                                    
                                 </select>
                             </div>
                         </div>

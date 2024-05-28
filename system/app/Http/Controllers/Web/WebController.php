@@ -22,10 +22,10 @@ class WebController extends Controller
         $data['list_seminar'] = Seminar::all();
         
         $data['penelitian_internal'] = Penelitian::where('jenis_penelitian', 'Internal')->count();
-        $data['penelitian_eksternal'] = Penelitian::where('jenis_penelitian', 'Eksternal')->count();
-        $data['penelitian_mahasiswa'] = Penelitian::where('jenis_penelitian', 'Mahasiswa')->count();
+        $data['penelitian_DRTPM_APTV'] = Penelitian::where('jenis_penelitian', 'DRTPM/APTV')->count();
+
         $data['pengabdian_internal'] = Pengabdian::where('jenis_pengabdian', 'Internal')->count();
-        $data['pengabdian_eksternal'] = Pengabdian::where('jenis_pengabdian', 'Eksternal')->count();
+        $data['pengabdian_DRTPM_APTV'] = Pengabdian::where('jenis_pengabdian', 'DRTPM/APTV')->count();
 
         return view('web.index', $data);
     }

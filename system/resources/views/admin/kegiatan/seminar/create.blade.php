@@ -27,6 +27,18 @@
                                 <input type="text" class="form-control" name="link_seminar" placeholder="Link Seminar">
                             </div>
                         </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label">Jenis Seminar</label>
+                            <div class="col-sm-9">
+                                <select name="jenis_seminar" class="form-control">
+                                    <option value=""> Pilih Jenis Seminar</option>
+                                    <option value="Seminar Nasional"> Seminar Nasional</option>
+                                    <option value="Seminar Internasional"> Seminar Internasional</option>
+                                </select>
+                            </div>
+                        </div>
+
                         <div class="row mb-2">
                             <label class="col-sm-3 col-form-label">Poto</label>
                             <div class="col-sm-9">

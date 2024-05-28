@@ -49,15 +49,15 @@
                         <p>Penelitian Internal</p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
                     <div class="funfact-one__single">
                         <div class="funfact-one__counter">
-                            <h3><span class="counter">{{ $penelitian_eksternal }}</span></h3>
+                            <h3><span class="counter">{{ $penelitian_DRTPM_APTV }}</span></h3>
                         </div>
-                        <p>Penelitian Eksternal</p>
+                        <p>Penelitian DRTPM/APTV</p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
+                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
                     <div class="funfact-one__single">
                         <div class="funfact-one__counter">
                             <h3><span class="counter">{{ $pengabdian_internal }}</span>
@@ -65,22 +65,15 @@
                         <p>PKM Internal</p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
-                    <div class="funfact-one__single">
-                        <div class="funfact-one__counter">
-                            <h3><span class="counter">{{ $pengabdian_eksternal }}</span></h3>
-                        </div>
-                        <p>PKM Eksternal</p>
-                    </div>
-                </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
                     <div class="funfact-one__single">
                         <div class="funfact-one__counter">
-                            <h3><span class="counter">{{ $penelitian_mahasiswa }}</span></h3>
+                            <h3><span class="counter">{{ $pengabdian_DRTPM_APTV }}</span></h3>
                         </div>
-                        <p>Mahasiswa</p>
+                        <p>PKM DRTPM/APTV</p>
                     </div>
                 </div>
+               
             </div>
         </div>
     </section>
@@ -91,7 +84,7 @@
                 <div class="col-lg-4">
                     <div class="faq-three__image wow fadeInLeft" data-wow-duration="1500ms">
 
-                        <img src="{{ url('public/web') }}/logo.png" style="width: 110%">
+                        <img src="{{ url('public/web') }}/politap.png" style="width: 110%">
                     </div>
                 </div>
                 <div class="col-lg-8">

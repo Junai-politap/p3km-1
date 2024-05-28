@@ -22,7 +22,7 @@
                                 <select name="jenis_pengabdian" class="form-control">
                                     <option value="Internal" @if ($pengabdian->jenis_pengabdian == 'Internal') selected @endif> Internal
                                     </option>
-                                    <option value="Eksternal" @if ($pengabdian->jenis_pengabdian == 'Eksternal') selected @endif> Eksternal
+                                    <option value="DRTPM/APTV" @if ($pengabdian->jenis_pengabdian == 'DRTPM/APTV') selected @endif> DRTPM/APTV
                                     </option>
                                 </select>
                             </div>

@@ -33,7 +33,7 @@
                 <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light"
                     data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false"
                     aria-expanded="false">
-                    <img src="{{url('public/admin')}}/assets/images/users/avatar-4.jpg" alt="user-image" class="rounded-circle">
+                    <img alt="user-image" class="rounded-circle" src='https://bootdey.com/img/Content/avatar/avatar7.png';">
                     <span class="ms-1 d-none d-md-inline-block">
                         {{ Auth::guard('admin')->user()->nama }}
                         <i class="mdi mdi-chevron-down"></i>

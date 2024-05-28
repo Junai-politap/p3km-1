@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
+use App\Models\Pimpinan;
 use App\Models\Profil;
+use App\Models\Renstra;
 use Illuminate\Http\Request;
 
 class ProfilController extends Controller
@@ -20,5 +22,17 @@ class ProfilController extends Controller
         $data['list_tujuan'] = Profil::where('jenis', 'Tujuan')->get();
 
         return view('web.profil.visi-misi', $data);
+    }
+
+    public function  renstra() {
+        $data['list_renstra'] = Renstra::all();
+
+        return view('web.profil.renstra', $data);
+    }
+
+    public function  strukturOrganisasi() {
+        $data['list_pimpinan'] = Pimpinan::all();
+
+        return view('web.profil.pimpinan', $data);
     }
 }

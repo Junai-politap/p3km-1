@@ -9,7 +9,7 @@
     <meta content="Myra Studio" name="author" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ url('public/admin') }}/logo.png">
+    <link rel="shortcut icon" href="{{ url('public/admin') }}/politap.png">
 
     <!-- App css -->
     <link href="{{ url('public/admin') }}/assets/css/style.min.css" rel="stylesheet" type="text/css">
@@ -26,11 +26,11 @@
 
                         <div class="text-center w-75 mx-auto auth-logo mb-4">
                             <a href="#" class="logo-dark">
-                                <span><img src="{{ url('public/admin') }}/logo.png" style="width: 50%"></span>
+                                <span><img src="{{ url('public/admin') }}/politap.png" style="width: 50%"></span>
                             </a>
 
                             <a href="#" class="logo-light">
-                                <span><img src="{{ url('public/admin') }}/logo.png" style="width: 50%"></span>
+                                <span><img src="{{ url('public/admin') }}/politap.png" style="width: 50%"></span>
                             </a>
                         </div>
 

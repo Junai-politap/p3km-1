@@ -1,7 +1,7 @@
 <x-web>
     <section class="page-header page-header__dark">
         <div class="container" style="height: 1%">
-            <h2>Data Pengabdian Internal</h2>
+            <h2>DATA PENGABDIAN INTERNAL</h2>
         </div>
     </section>
 
@@ -121,6 +121,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                    </div>
                                                 </tr>
                                             @endforeach
                                         </tbody>
